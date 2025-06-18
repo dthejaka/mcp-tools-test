@@ -1,0 +1,11 @@
+[project]
+name = "tools-mcp"
+version = "0.1.0"
+description = "Tools.com Ecommerce site MCP server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dinero",
+    "mcp[cli]",
+    "httpx"
+]
