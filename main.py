@@ -20,4 +20,4 @@ async def get_products(search_query: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="streamable-http", port=10000)
+    mcp.run(transport="streamable-http")
